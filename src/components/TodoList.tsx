@@ -14,7 +14,7 @@ interface Props {
 const TodoList: React.FC<Props> = ({todos, setTodos, completedTodos, setCompletedTodos}) => {
   return (
     <div className="container">
-      <Droppable droppableId="TodosList">
+      <Droppable droppableId="dropZone">
     {
       (provided) => (
         <div className="todos" 
