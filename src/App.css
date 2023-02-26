@@ -6,7 +6,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #2f74c0;
+  background: linear-gradient(#0d1e6cb3, #8a1076b3),
+    url("./../public/taskifyimg.jpg");
+  background-position-y: 100%;
   font-family: "Neucha", cursive;
 }
 
@@ -23,5 +25,9 @@
   .heading {
     margin: 15px 0;
     font-size: 35px;
+  }
+  .App {
+    background-position: 50%;
+    background-position-y: -1700%;
   }
 }
